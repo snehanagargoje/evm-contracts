@@ -1,15 +1,10 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+“This repository contains my practice smart contracts and EVM experiments.”
+# EVM Practice Contracts
 
-// Simple Storage Contract – practice contract
-contract SimpleStorage {
-    uint256 private data;
+This repository contains my personal practice smart contracts to learn Solidity and EVM development. 
+All contracts have been tested locally using Hardhat/Remix.
 
-    function set(uint256 _data) public {
-        data = _data;
-    }
-
-    function get() public view returns (uint256) {
-        return data;
-    }
-}
+Files:
+- SimpleStorage.sol – basic storage contract
+- ERC20Token.sol – practice ERC-20 token
+- NFTContract.sol – practice ERC-721 NFT
